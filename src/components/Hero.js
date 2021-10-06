@@ -1,10 +1,7 @@
-import React from 'react';
+import React from "react";
 
 function Hero() {
-    return(
-    //html goes here
-    // this is the ILOVECHARITY section
-    )
+	<div className="hero"></div>;
 }
 
 export default Hero;
