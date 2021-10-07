@@ -1,0 +1,10 @@
+@import url(./__image/opp-card__image.css);
+@import url(./__image-info/opp-card__image-info.css);
+@import url(./__text/opp-card__text.css);
+@import url(./__button/opp-card__button.css);
+
+.opp-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 71px 0;
+}
