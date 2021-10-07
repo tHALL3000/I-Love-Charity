@@ -5,10 +5,28 @@ function Hero() {
 		<h1>
 			ILOVECHARITY
 		</h1>
-		<h3>
-			Helping the needy under <span>any circumstances</span>
-			<img src="./images/Vectorfilled-heart-white"
-		</h3>
+		<div
+			className="hero__container
+			"
+		>
+			<h3>
+				Helping
+				the
+				needy
+				under
+				<span style="border: 2px white solid; border-radius: 25px; padding: 8px">
+					any
+					circumstances
+				</span>
+				<img src="./images/Vectorfilled-heart-white" />
+				Good
+				does
+				not
+				go
+				into
+				quarentine.
+			</h3>
+		</div>
 	</div>;
 }
 
