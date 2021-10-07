@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import GetHelpLink from './components/GetHelpLink';
 import CompletionsList from './components/CompletionsList';
 import Footer from './components/Footer';
+import { opps } from './utilities/opps';
 
 function App() {
 
@@ -15,10 +16,10 @@ function App() {
 
   return (
     <div>
-      {/* <Header />
-      <Hero />
-      <Opportunities />
-      <Projects />
+      <Header />
+      {/* <Hero /> */}
+      <Opportunities opps={opps}/>
+      {/* <Projects />
       <GetHelpLink />
       <CompletionsList />
       <Footer /> */}

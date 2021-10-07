@@ -1,0 +1,10 @@
+@import url(./_faint/opp-card__text_faint.css);
+@import url(./_bold/opp-card__text_bold.css);
+@import url(./_paragraph/opp-card__text_paragraph.css);
+@import url(./_button/opp-card__text_button.css);
+
+.opp-card__text {
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+}
