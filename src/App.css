@@ -5,6 +5,7 @@
 
 @import url(../src/styles/section/__link/_plain/section__link_plain.css);
 
+
 h1{
     font-family: Nunito, sans-serif;
     font-size: 155px;
@@ -25,3 +26,10 @@ h3{
     position: relative;
     text-align: center;
 }
+
+@import url(../src/styles/section/__link/__title/section__title.css);
+
+@import url(../src/styles/opportunities/opportunities.css);
+
+@import url(../src/styles/opp-card/opp-card.css);
+
