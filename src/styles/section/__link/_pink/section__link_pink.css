@@ -1,0 +1,17 @@
+.section__link_pink{
+  float: left;
+  list-style: none;
+  text-align: center;
+  background-color: #F96672;
+  margin-right: 30px;
+  margin-left: 14px;
+  width: 93px;
+  line-height: 38px;
+  border-radius: 25px;
+  font-family: Nunito, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+}
