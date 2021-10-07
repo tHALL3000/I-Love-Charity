@@ -1,4 +1,5 @@
 .opp-card__image {
-    width: 409px;
-    height: 421px;
+    width: 100%;
+    height: 491px;
+    object-fit: cover;
 }
