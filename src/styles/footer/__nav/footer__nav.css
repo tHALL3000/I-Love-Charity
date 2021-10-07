@@ -1,0 +1,11 @@
+.footer__nav{
+  font-family: Nunito, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 60px;
+}

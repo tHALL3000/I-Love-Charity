@@ -5,8 +5,31 @@
 
 @import url(../src/styles/section/__link/_plain/section__link_plain.css);
 
+
+h1{
+    font-family: Nunito, sans-serif;
+    font-size: 155px;
+    font-weight:400;
+    line-height: 211px;
+    color: #fff;
+    position: relative;
+    padding-top: 147px;
+    text-align: center;
+}
+
+h3{
+    font-family: Nunito, sans-serif;
+    font-size: 28px;
+    font-weight:400;
+    line-height: 38px;
+    color: #fff;
+    position: relative;
+    text-align: center;
+}
+
 @import url(../src/styles/section/__link/__title/section__title.css);
 
 @import url(../src/styles/opportunities/opportunities.css);
 
 @import url(../src/styles/opp-card/opp-card.css);
+
