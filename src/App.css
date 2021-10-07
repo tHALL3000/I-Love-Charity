@@ -4,3 +4,15 @@
 
 
 @import url(../src/styles/section/__link/_plain/section__link_plain.css);
+
+h1{
+    font-family: Nunito, sans-serif;
+    font-size: 155px;
+    font-weight:400;
+    line-height: 211px;
+    color: #fff;
+    position: relative;
+    padding-top: 147px;
+    text-align: center;
+
+}
