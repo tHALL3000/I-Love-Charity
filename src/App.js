@@ -8,16 +8,16 @@ import CompletionsList from './components/CompletionsList';
 import Footer from './components/Footer';
 import { opps } from './utilities/opps';
 
-function App() {
 
-  // uncomment each component as you prepare it to see it on the page, if you uncomment all
-  // the page won't load
-  // to see what the page looks like type "npm run dev" into the bash terminal
+function App() {
+	// uncomment each component as you prepare it to see it on the page, if you uncomment all
+	// the page won't load
+	// to see what the page looks like type "npm run dev" into the bash terminal
 
   return (
     <div>
       <Header />
-      {/* <Hero /> */}
+      <Hero /> 
       <Opportunities opps={opps}/>
       {/* <Projects />
       <GetHelpLink />
@@ -25,6 +25,7 @@ function App() {
       <Footer /> */}
     </div>
   );
+
 }
 
 export default App;

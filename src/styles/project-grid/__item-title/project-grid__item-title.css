@@ -1,0 +1,5 @@
+.project-grid__item-title{
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+}
