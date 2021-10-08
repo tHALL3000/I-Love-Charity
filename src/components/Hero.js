@@ -24,7 +24,7 @@ function Hero() {
 				not
 				go
 				into
-				quarentine.
+				quarantine.
 			</h3>
 		</div>
 	</div>;
