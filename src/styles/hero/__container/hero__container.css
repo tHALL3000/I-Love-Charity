@@ -1,0 +1,7 @@
+.hero__container{
+    width: 400px;
+    height: 106px;
+    display: block;
+    text-align: left;
+    white-space: pre;
+}

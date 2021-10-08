@@ -1,6 +1,19 @@
 @import url(../src/styles/header/__menu/header__menu.css);
 @import url(../src/styles/header/__nav-links/header__nav-links.css);
 @import url(../src/styles/header/__nav/header__nav.css);
+@import url(../src/styles/header/__logo/header__logo_text.css);
+
+@import url(../src/styles/hero/__container/hero__container.css);
+@import url(../src/styles/hero/hero.css);
+
+@import url(../src/styles/project-grid/project-grid.css);
+@import url(../src/styles/project-grid/__container/project-grid__container.css);
+@import url(../src/styles/project-grid/__item/project-grid__item.css);
+@import url(../src/styles/project-grid/__item-title/project-grid__item-title.css);
+@import url(../src/styles/project-grid/__item-img/project-grid__item-img.css);
+
+@import url(../src/styles/footer/__nav-links/_icons/footer__nav-links_icons.css);
+@import url(../src/styles/footer/__nav/footer__nav.css);
 
 /* Section imports */
 @import url(../src/styles/section/__link/_plain/section__link_plain.css);

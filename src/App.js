@@ -10,7 +10,6 @@ import Footer from './components/Footer';
 import DonationsPage from './components/DonationsPage';
 import { opps } from './utilities/opps';
 
-function App() {
 
   return (
     <div>
@@ -26,6 +25,7 @@ function App() {
       </Switch>
     </div>
   );
+
 }
 
 export default App;

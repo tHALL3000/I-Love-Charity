@@ -1,8 +1,8 @@
 .hero{
-    background: linear-gradient(-45deg, #FA676F, #FC558F, #FC5C84, #F47464);
+    background: linear-gradient(145deg, #FA676F, #FC558F, #F47464, #f7a499);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	height: 100vh;
+	height: 700px;
 }
 @keyframes gradient {
 	0% {
