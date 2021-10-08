@@ -10,19 +10,21 @@ import Footer from './components/Footer';
 import DonationsPage from './components/DonationsPage';
 import { opps } from './utilities/opps';
 
-
+function App() {
+  
   return (
     <div>
       <Header />
       <Switch>
         <Route exact path='/'>
-          {/* <Hero /> */}
+          <Hero />
           <Opportunities opps={opps} />
         </Route>
         <Route path='/donate'>
           <DonationsPage />
         </Route>
       </Switch>
+      <Footer />
     </div>
   );
 
