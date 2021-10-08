@@ -1,4 +1,5 @@
 import React from "react";
+import heart from '../images/Vectorfilled-heart-white.png';
 
 function Hero() {
 
@@ -19,7 +20,7 @@ function Hero() {
 						any
 						circumstances
 					</span>
-					<img src="./images/Vectorfilled-heart-white" alt='' />
+					<img src={heart} alt='' />
 					Good
 					does
 					not
