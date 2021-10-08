@@ -1,0 +1,9 @@
+@import url(./_text/donations__info_text.css);
+@import url(./_amount/donations__info_amount.css);
+
+.donations__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 421px;
+}

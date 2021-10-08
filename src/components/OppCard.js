@@ -15,7 +15,7 @@ function OppCard(props) {
 				<p className='opp-card__text opp-card__text_faint'>{props.topic}</p>
 				<p className='opp-card__text opp-card__text_bold'>{props.title}</p>
 				<p className='opp-card__text opp-card__text_normal opp-card__text_paragraph'>{props.about}</p>
-			<button className='opp-card__button'>
+			<button className='section__button'>
 				<p className='opp-card__text opp-card__text_normal opp-card__text_button'>Donate</p>
 				<img className='opp-card__heart' src={heart} alt='heart' />
 			</button>

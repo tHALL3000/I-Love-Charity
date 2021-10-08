@@ -1,0 +1,10 @@
+.donations__info_amount {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.donations__info_amount:last-of-type {
+    color: #F96672;
+}

@@ -1,0 +1,7 @@
+@import url(./_grid-item/donations__form_grid-item.css);
+
+.donations__form {
+    display: grid;
+    grid-template-columns: repeat(2, 443px);
+    grid-template-rows: repeat(3, 110px);
+}

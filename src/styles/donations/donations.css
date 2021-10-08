@@ -1,0 +1,11 @@
+@import url(./__title/donations__title.css);
+@import url(./__subtitle/donations__subtitle.css);
+@import url(./__info/donations__info.css);
+@import url(./__image-container/donations__image-container.css);
+@import url(./__progress-bar/donations__progress-bar.css);
+@import url(./__form/donations__form.css);
+
+.donations {
+    display: flex;
+    flex-direction: column;
+}

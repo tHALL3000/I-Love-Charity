@@ -1,0 +1,4 @@
+.donations__form_grid-item.css {
+    display: flex;
+    flex-direction: column;
+}

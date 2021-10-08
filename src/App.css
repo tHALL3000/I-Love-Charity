@@ -2,11 +2,15 @@
 @import url(../src/styles/header/__nav-links/header__nav-links.css);
 @import url(../src/styles/header/__nav/header__nav.css);
 
-
+/* Section imports */
 @import url(../src/styles/section/__link/_plain/section__link_plain.css);
 
-@import url(../src/styles/section/__link/__title/section__title.css);
+@import url(../src/styles/section/__title/section__title.css);
+
+@import url(../src/styles/section/__button/section__button.css);
 
 @import url(../src/styles/opportunities/opportunities.css);
 
 @import url(../src/styles/opp-card/opp-card.css);
+
+@import url(../src/styles/donations/donations.css);
