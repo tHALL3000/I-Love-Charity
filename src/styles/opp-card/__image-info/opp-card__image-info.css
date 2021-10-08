@@ -1,0 +1,9 @@
+.opp-card__image-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    position: absolute;
+    left: 10px;
+    bottom: 2px;
+}

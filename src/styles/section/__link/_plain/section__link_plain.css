@@ -1,0 +1,14 @@
+.section__link_plain {
+    float: left;
+    display: block;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    padding: 14px;
+    margin: 0px;
+    font-family: Nunito, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
