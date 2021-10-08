@@ -8,8 +8,8 @@ function OppCard(props) {
 			<div className='opp-card__image-container'>
 				<img className='opp-card__image' src={props.picture} alt='pic' />
 				<div className='opp-card__image-info'>
-					<p className='opp-card__image-text'>Raised <br /> {props.raiseAmount}</p>
-					<p className='opp-card__image-text'>Need to collect <br />{props.needAmount}</p>
+					<p className='opp-card__image-text'>Raised <br /> {props.raised}</p>
+					<p className='opp-card__image-text'>Need to collect <br />{props.needed}</p>
 				</div>
 			</div>
 				<p className='opp-card__text opp-card__text_faint'>{props.topic}</p>

@@ -1,9 +1,14 @@
 import React from "react";
+import { Link, useHistory } from 'react-router-dom';
 
 function Header() {
 
-	// include function for Donate link
-	
+	const history = useHistory();
+
+	const makeDonation =() => {
+		history.push('/donate');
+	}
+
 	return (
 		<header class="header">
 			<img
@@ -18,7 +23,10 @@ function Header() {
 						help
 					</li>
 					<li class="section__link_pink">
+						<Link to='/donate'
+						onClick={makeDonation}>
 						Donate
+						</Link>
 					</li>
 				</ul>
 			</nav>

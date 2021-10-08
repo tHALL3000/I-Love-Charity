@@ -1,4 +1,4 @@
-@import url(../src/styles/header/__menu/header__menu.css);
+/* @import url(../src/styles/header/__menu/header__menu.css); */
 @import url(../src/styles/header/__nav-links/header__nav-links.css);
 @import url(../src/styles/header/__nav/header__nav.css);
 @import url(../src/styles/header/__logo/header__logo_text.css);
@@ -21,6 +21,9 @@
 @import url(../src/styles/section/__title/section__title.css);
 
 @import url(../src/styles/section/__button/section__button.css);
+
+@import url(../src/styles/section/__link/_pink/section__link_pink.css);
+
 
 @import url(../src/styles/opportunities/opportunities.css);
 

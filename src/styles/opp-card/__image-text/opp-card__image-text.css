@@ -1,5 +1,6 @@
 .opp-card__image-text {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 19px;
-    color: #f5172a;
+    font-weight: bold;
+    color: #ff0000;
 }

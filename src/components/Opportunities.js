@@ -13,7 +13,9 @@ function Opportunities(props) {
                         picture={opp.picture} 
                         topic={opp.topic}
 						title={opp.title}
-						about={opp.about}/>
+						about={opp.about}
+						raised={opp.raised}
+						needed={opp.needed}/>
                     )
                 })}
 			</div>
