@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/I-Love-Charity/static/css/main.2c07fbca.chunk.css",
+    "main.js": "/I-Love-Charity/static/js/main.51648541.chunk.js",
+    "main.js.map": "/I-Love-Charity/static/js/main.51648541.chunk.js.map",
+    "runtime-main.js": "/I-Love-Charity/static/js/runtime-main.886dd76c.js",
+    "runtime-main.js.map": "/I-Love-Charity/static/js/runtime-main.886dd76c.js.map",
+    "static/js/2.8a7007b2.chunk.js": "/I-Love-Charity/static/js/2.8a7007b2.chunk.js",
+    "static/js/2.8a7007b2.chunk.js.map": "/I-Love-Charity/static/js/2.8a7007b2.chunk.js.map",
+    "static/js/3.68c3022e.chunk.js": "/I-Love-Charity/static/js/3.68c3022e.chunk.js",
+    "static/js/3.68c3022e.chunk.js.map": "/I-Love-Charity/static/js/3.68c3022e.chunk.js.map",
+    "index.html": "/I-Love-Charity/index.html",
+    "static/css/main.2c07fbca.chunk.css.map": "/I-Love-Charity/static/css/main.2c07fbca.chunk.css.map",
+    "static/js/2.8a7007b2.chunk.js.LICENSE.txt": "/I-Love-Charity/static/js/2.8a7007b2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.886dd76c.js",
+    "static/js/2.8a7007b2.chunk.js",
+    "static/css/main.2c07fbca.chunk.css",
+    "static/js/main.51648541.chunk.js"
+  ]
+}
