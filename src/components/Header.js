@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useHistory } from 'react-router-dom';
+import logo from '../images/ILOVECHARITY_logo.png';
 
 function Header() {
 
@@ -12,7 +13,7 @@ function Header() {
 	return (
 		<header class="header">
 			<img
-				src="src/images/ILOVECHARITY_logo.png"
+				src={logo}
 				alt="I LOVE CHARITY logo"
 				class="header__logo_text"
 			/>

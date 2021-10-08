@@ -1,10 +1,11 @@
 import React from "react";
+import logo from '../images/CharityWhite.png';
 
 function Footer() {
 	return (
 		<footer className="footer">
 			<ul className="footer__nav">
-				<li className="footer__nav-links"><img src="/images/ILOVECHARITY_white.png" alt="ILOVECHARITY" /></li>
+				<li className="footer__nav-links"><img src={logo} alt="ILOVECHARITY" /></li>
 				<li className="footer__nav-links"> Privacy Policy </li>
 				<li className="footer__nav-links"> Terms and Conditions </li>
 				<li className="footer__nav-links"> FAQ </li>

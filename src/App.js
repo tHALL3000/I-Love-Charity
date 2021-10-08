@@ -4,12 +4,10 @@ import { Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Opportunities from './components/Opportunities';
-import Projects from './components/Projects';
-import GetHelpLink from './components/GetHelpLink';
-import CompletionsList from './components/CompletionsList';
 import Footer from './components/Footer';
 import DonationsPage from './components/DonationsPage';
 import { opps } from './utilities/opps';
+import CompletedProject from './components/CompletedProject';
 
 function App() {
 
@@ -33,10 +31,8 @@ function App() {
       <Switch>
         <Route exact path='/'>
           <Hero />
-          <Opportunities opps={opps}
-            donatePuppy={donatePuppy}
-            donateMassage={donateMassage}
-            donateChildcare={donateChildcare} />
+          <Opportunities opps={opps} />
+            <CompletedProject />
         </Route>
         <Route path='/donate'>
           <DonationsPage donation={donation}/>

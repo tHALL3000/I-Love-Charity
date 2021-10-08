@@ -1,7 +1,14 @@
 import React from "react";
 import heart from '../images/donate-heart.png';
+import { useHistory } from 'react-router-dom';
 
 function OppCard(props) {
+
+	const history = useHistory();
+
+	const goDonate = () => {
+		history.push('/donate');
+	}
 
 	return (
 		<article className='opp-card'>
@@ -15,7 +22,7 @@ function OppCard(props) {
 				<p className='opp-card__text opp-card__text_faint'>{props.topic}</p>
 				<p className='opp-card__text opp-card__text_bold'>{props.title}</p>
 				<p className='opp-card__text opp-card__text_normal opp-card__text_paragraph'>{props.about}</p>
-			<button className='section__button'>
+			<button className='section__button' onClick={goDonate}>
 				<p className='opp-card__text opp-card__text_normal opp-card__text_button'>Donate</p>
 				<img className='opp-card__heart' src={heart} alt='heart' />
 			</button>

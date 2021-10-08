@@ -11,7 +11,7 @@ function CompletedProject() {
   <div className="project-grid__item"><h3 className="project-grid__item-title">Health <span className="project-grid__item__number">25</span></h3>
     <p className="project-grid__item-text">We’re fighting to help everyone get and stay healthy</p>
   </div>
-  <div className="project-grid__item_big"><img src="src/images/image4_helper.jpg" className="project-grid__item-img"></div>  
+  <div className="project-grid__item_big"><img src="src/images/image4_helper.jpg" className="project-grid__item-img" /></div>  
   <div className="project-grid__item"><h3 className="project-grid__item-title">Homeless People <span className="project-grid__item__number">17</span></h3>
     <p className="project-grid__item-text">Giving hope to those experiencing homelessness</p>
   </div>

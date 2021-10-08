@@ -1,7 +1,7 @@
-/* @import url(../src/styles/header/__menu/header__menu.css); */
 @import url(../src/styles/header/__nav-links/header__nav-links.css);
 @import url(../src/styles/header/__nav/header__nav.css);
 @import url(../src/styles/header/__logo/header__logo_text.css);
+@import url(../src/styles/header/header.css);
 
 @import url(../src/styles/hero/__container/hero__container.css);
 @import url(../src/styles/hero/hero.css);
@@ -30,3 +30,7 @@
 @import url(../src/styles/opp-card/opp-card.css);
 
 @import url(../src/styles/donations/donations.css);
+
+@import url(../src/styles/footer/footer.css);
+@import url(../src/styles/footer/__nav/footer__nav.css);
+@import url(../src/styles/footer/__nav-links/_icons/footer__nav-links_icons.css);
